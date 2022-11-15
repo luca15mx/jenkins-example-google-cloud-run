@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
     CLOUDSDK_CORE_PROJECT='jenkinsgcp-demo'
-    CLIENT_EMAIL='jenkins-gcp@jenkinsgcp-demo.iam.gserviceaccount.com'
+    CLIENT_EMAIL='jenkins-code-run@jenkinsgcp-demo.iam.gserviceaccount.com'
     GCLOUD_CREDS=credentials('GCP-Code-Run')
   }
   stages {
