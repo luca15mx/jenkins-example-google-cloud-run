@@ -3,7 +3,7 @@ pipeline {
   environment {
     CLOUDSDK_CORE_PROJECT='jenkinsgcp-demo'
     CLIENT_EMAIL='jenkins-gcp@jenkinsgcp-demo.iam.gserviceaccount.com'
-    GCLOUD_CREDS=credentials('gcloud-creds')
+    GCLOUD_CREDS=credentials('GCP-Code-Run')
   }
   stages {
     stage('Verify version') {
